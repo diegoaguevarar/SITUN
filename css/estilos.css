@@ -9,6 +9,36 @@
     src: url('../fonts/Ancizar Serif-Bold.otf');
 }
 
+main-title {
+  width: 100%;
+}
+
+.counter{
+  font-size: 4em;
+  color: white;
+}
+
+.title-orange {
+  background-color: #F27F31;
+  height: 100px;
+  /* margin-top: 2em; */
+}
+
+.rows-stations{
+  height: 100px;
+  margin-bottom: 0.5em;
+  text-align:center;
+}
+
+.titles{
+  color: white;
+  margin-top: 1em;
+}
+
+.logo-title{
+  margin-top: 1em;
+}
+
 a:link {
 	text-decoration: none;
 	color:#333333;
