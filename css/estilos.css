@@ -68,6 +68,7 @@ h1 {
 	background-image: url(../imagenes/B1_B.jpg);
 	cursor:pointer;
 }
+
 .botonBicirrun {
   width: 665px;
   padding:10px 40px 83px 8px;
@@ -77,6 +78,18 @@ h1 {
 .botonBicirrun:hover {
 	text-shadow: 1px 1px #000000;
 	background-image: url(../imagenes/B2_B.jpg);
+	cursor:pointer;
+}
+
+.botonCar {
+  width: 665px;
+  padding:10px 40px 83px 8px;
+	background-image: url(../imagenes/B3_A.jpg);
+	float: left;
+}
+.botonCar:hover {
+	text-shadow: 1px 1px #000000;
+	background-image: url(../imagenes/B3_B.jpg);
 	cursor:pointer;
 }
 
@@ -111,22 +124,11 @@ h3 {
 	float:left;
 }
 .contenido img {
-  width: 100%;
+  margin-left: 10%;
+  width: 80%;
   height: auto;
 }
 
-.contenido_b {
-	position: relative;
-	margin-left: 5%;
-  max-width:45%;
-	float:left;
-}
-
-.contenido_b img {
-  margin-left: 8%;
-  width: 100%;
-  height: auto;
-}
 
 @media only screen and (max-width: 1534px) {
   h3{
